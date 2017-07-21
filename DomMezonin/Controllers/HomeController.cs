@@ -15,7 +15,8 @@ namespace DomMezonin.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Title = "Арт Лампа! чудо лампы для вашего дома";
+            ViewBag.Message = DateTime.Now.ToLongTimeString();
 
             return View();
         }
